@@ -1,48 +1,90 @@
-# Exno.3-Scenario-Based Report Development Utilizing Diverse Prompting Techniques
-### DATE:                                                                            
-### REGISTER NUMBER : 
-### Aim: To design an AI-powered chatbot that assists customers in resolving issues related to product troubleshooting, order tracking, and general inquiries. The chatbot should handle various customer queries efficiently while maintaining a conversational and user-friendly tone. In this experiment, we will employ different prompt patterns to guide the development process of the chatbot, ranging from basic task-oriented prompts to more complex, persona-driven prompts.
+# Exno.4-Scenario-Based Report Development Utilizing Diverse Prompting Techniques
+### DATE: 9.04.2025                                                                           
+### REGISTER NUMBER : 212222220044
+### Aim: Scenario-Based Report Development Utilizing Diverse Prompting Techniques
+### Algorithm:  
+   The goal of this experiment is to design and develop an AI-powered chatbot that can handle customer inquiries, provide support, and improve customer experience in a retail environment. Create prompts using various AI prompting techniques to guide your experiment, data collection, analysis, and report creation
 
-### Algorithm:  1. Direct Instruction Prompts
-Objective: Guide the chatbot to respond concisely to customer inquiries.
-Prompt Pattern:
-Prompt: "When a customer asks for the status of their order, reply with: 'Your order is currently being processed and will be delivered by [date].'"
-2. Contextual Prompting
-Objective: Incorporate specific context to provide detailed answers based on the user’s previous interaction.
-Prompt Pattern:
-Prompt: "If the customer previously mentioned that they haven’t received their order, say, 'I see that you mentioned your order hasn't arrived yet. Let me check the details for you and get back shortly.'"
-3. Persona-Based Prompting
-Objective: Design the chatbot to adopt a specific persona, making the interaction more engaging.
-Prompt Pattern:
-Prompt: "Pretend you are a friendly, helpful customer service representative. Use a conversational tone, such as 'Hey there! I’m here to help with any questions you might have. Let’s get your issue sorted!'"
-4. Few-Shot Prompting
-Objective: Teach the AI how to respond using a few examples, enabling it to generalize for similar situations.
-Prompt Pattern:
-Prompt: "Here are some examples of how to handle technical questions:
-'My phone isn't charging.' → 'Have you tried using a different cable? If that doesn’t work, it may be an issue with the port.'
-'The screen is flickering.' → 'It sounds like a display issue. Have you tried restarting the device?'
-Now, respond to: 'My app keeps crashing.'"
-5. Chain of Thought Prompting
-Objective: Use a step-by-step reasoning approach for resolving more complex or technical issues.
-Prompt Pattern:
-Prompt: "When a customer reports their laptop overheating, guide them through the following steps:
-Ask if they are using the laptop on a soft surface.
-Suggest moving the laptop to a flat, hard surface for better airflow.
-Ask if they’ve cleaned the vents recently.
-Recommend restarting the device to see if the issue persists.
-Now, solve: 'My laptop fan is making a loud noise.'"
-6. Instruction with Constraints
-Objective: Instruct the chatbot to provide assistance while adhering to specific constraints (e.g., response length or tone).
-Prompt Pattern:
-Prompt: "Respond to order inquiries in no more than 50 words and avoid using technical jargon. For example, 'Your order is on the way and should arrive by [date]. Feel free to reach out if you need anything else.'"
-7. Reflective Prompting
-Objective: Ensure that the chatbot reflects the user’s query back to them before providing a response, reducing misunderstandings.
-Prompt Pattern:
-Prompt: "When a customer asks for help, first reflect their question back to them. For example, if they ask 'How can I reset my password?' respond with 'You're asking how to reset your password, correct? Here’s how you can do it.'"
-Result: The various types of Prompts are executed successfully.
+## Prompting Techniques:
+To effectively develop and evaluate an AI-powered chatbot for customer interactions in a
+supermarket setting, we will employ a variety of AI prompting techniques. Below are
+structured prompts divided into four main phases: Experiment Design, Data Collection,
+Analysis, and Report Creation. Each phase includes different prompting techniques to guide
+researchers and developers through the process.
+## 1. Experiment Design:
+Prompt Type: Broad (Naïve) Prompts
+- "What functionalities should a supermarket chatbot provide to enhance customer
+experience?"
+- "How can AI help customers with their shopping needs in a supermarket?"
+Prompt Type: Specific (Basic) Prompts
+- "List five key features that would improve the usability of a supermarket chatbot."
+- "Describe a typical customer journey where a chatbot assists in selecting grocery items."
+Prompt Type: Open-Ended Prompts
+- "What types of questions or concerns do you think customers might have when
+interacting with a supermarket chatbot?"
+- "What challenges could arise when implementing an AI chatbot in a supermarket
+environment?"
+Prompt Type: Scenario-Based Prompts
+- "Imagine a scenario where a customer is looking for gluten-free products. How should the
+chatbot guide them through their options?"
+- "If a customer is inquiring about the store's discounts, how should the chatbot respond
+effectively?"
+## 2. Data Collection
+Prompt Type: Survey/Feedback Prompts:
+- "Rate your satisfaction with the supermarket chatbot experience on a scale of 1 to 10 and
+provide a brief explanation for your rating."
+- "What additional information or features would improve your interaction with our
+supermarket chatbot?"
+Prompt Type: Structured Data Collection Prompts:
+- "During your interaction with the chatbot, which tasks were you able to complete? (Select
+all that apply.)"
+- Product availability inquiry
+- Price checks
+- Location of items in the store
+- Order placement for delivery/pickup
+Prompt Type: Follow-Up Prompts:
+- "If the chatbot failed to answer your question, please describe the issue."
+- "Were there any moments during your interaction where the chatbot exceeded your
+expectations?"
+## 3. Analysis:
+Prompt Type: Analytical Prompts:
+- "Analyze the feedback to identify common themes regarding user satisfaction with the
+chatbot."
+- "What patterns can be recognized from the types of inquiries made via the chatbot?"
+Prompt Type: Comparison Analysis Prompts:
+- "Compare customer satisfaction scores with the chatbot against traditional customer
+service methods in the supermarket."
+- "Evaluate how the chatbot's response times correlate with customer perceptions of
+service quality."
+Prompt Type: Data Synthesis Prompts:
+- "Synthesize the collected data to highlight the top three most requested features for the
+chatbot."
+- "From the analysis, identify any specific demographic patterns in the types of questions
+asked to the chatbot."
+## 4. Report Creation:
+Prompt Type: Summary Prompts:
+- "Summarize the key findings from the experiment on the supermarket chatbot and their
+implications for future development."
+- "What were the most significant challenges identified during the evaluation of the
+chatbot?"
+Prompt Type: Recommendation Prompts:
+- "Based on customer feedback, suggest actionable recommendations to improve the
+chatbot's performance and responsiveness."
+- "Identify new features or capabilities that could be introduced based on the data
+analysis."
+Prompt Type: Reflection Prompts:
+- "Reflect on the user experience and how the design of the supermarket chatbot can be
+enhanced based on the interactions analyzed."
+- "What future trends in AI and customer service could impact the development of
+supermarket chatbots?"
+## Conclusion:
+Using various AI prompting techniques throughout the stages of design, data collection,
+analysis, and report creation will create a comprehensive framework for effectively
+developing an AI-powered chatbot for supermarket customer interactions. By leveraging
+broad, specific, open-ended, scenario-based, survey prompts, and analytical techniques,
+teams can gather valuable insights to enhance the chatbot and improve overall customer
+satisfaction.
 
 
 
-
-# Result: Thus the Prompts were exected succcessfully .
 
